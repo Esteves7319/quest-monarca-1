@@ -1,0 +1,40 @@
+{
+  "name": "quest-monarca",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "db:types": "supabase gen types typescript --project-id your_project_id > src/types/database.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "next": "^14.0.0",
+    "typescript": "^5.3.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "@supabase/supabase-js": "^2.41.0",
+    "dexie": "^3.2.4",
+    "framer-motion": "^10.16.0",
+    "zustand": "^4.4.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.0",
+    "lucide-react": "^0.294.0",
+    "date-fns": "^2.30.0",
+    "axios": "^1.6.0",
+    "next-pwa": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/dexie": "^3.1.8",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
